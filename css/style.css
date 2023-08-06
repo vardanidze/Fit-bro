@@ -286,6 +286,10 @@ a {
     box-shadow: none;
     top: 5px;
   }
+
+  .ftul {
+    margin-top: 70px;
+  }
   footer .ftnav {
     width: 100%;
     display: -webkit-box;
