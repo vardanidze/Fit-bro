@@ -1,0 +1,282 @@
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-medium-caps/css/bpg-nino-medium-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-mikheil-stefane/css/bpg-mikheil-stefane.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+@import url('https://fonts.cdnfonts.com/css/muscular-strength');
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 100px
+}
+
+
+
+.container {
+    max-width: 1240px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slogan {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    height: 700px;
+    display: flex;
+    gap: 50px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.fit {
+    font-family: 'MUSCULAR STRENGTH';
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 70px;
+    float: left;
+        
+}
+
+.textdiv {
+    height: 60px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 100px;
+    color: white;
+    font-family: "BPG Mikheil Stefane", sans-serif;
+    
+}
+
+
+.nav {
+        width: 100%;
+            padding: 0 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+            gap: 50%;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.head1 {
+    height: 100vh;
+    background-color: black;
+ }
+
+li {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+
+}
+
+
+
+a {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    font-family: "ArchyEDT-Bold", sans-serif;
+
+
+}
+
+.arrow {
+    background: url("../img/arrow.png");
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    filter: brightness(0) invert(1);
+
+}
+
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.container p {
+    margin: 15px;
+}
+
+.card1, .card2, .card3, .card4  { 
+    max-width: 500px;
+    max-height: 480px;
+    border-radius: 2%;
+    -webkit-box-shadow:0px 0px 300px 5px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 300px 5px rgba(0,0,0,1);
+    box-shadow: 0px 0px 300px 5px rgba(0,0,0,1);
+    box-shadow: 5px;
+    transition: 0.4s;
+
+   
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover {
+    transform: scale(1.05);
+}
+
+.man {
+    background: url("../img/man.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    background-size: contain;
+    border-radius: 2%;
+    
+    
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 15px;
+    margin-left: 15px;
+    line-height: 23px;
+    line-break: loose;
+}
+
+        
+.description {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "BPG Nino Medium Caps", sans-serif;
+    font-weight: 500;
+    margin-left: 15px;
+    line-height: 23px;
+    line-break: loose;
+    
+}
+
+.skate {
+    background: url("../img/skate.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    background-size: contain;
+    border-radius: 2%;
+    
+    
+}
+
+
+.snikers {
+    background: url("../img/snikers.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    background-size: contain;
+    border-radius: 2%;
+}
+
+.food {
+    background: url("../img/food.png");
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    background-size: contain;
+    border-radius: 2%;
+}
+
+
+footer .ftnav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .ftnav img {
+    text-align: center;
+  }
+
+  .ftul {
+    margin-top: 70px;
+  }
+
+  footer .ftnav .ftul {
+    max-width: 850px;
+    width: 100%;
+    height: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+ @media (max-width: 1000px) {
+    ul {
+        display: none;
+    }
+ }
+ 
+  @media (max-width: 560px) {
+    .fit {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .arrow {
+        width: 50px;
+        height: 50px;
+    }
+    .card1, .card2, .card3, .card4  { 
+        width: 200px;
+        height: 250px;
+     }
+     .description {
+        display: none;
+     }
+     .snikers, .skate, .food, .man {
+        width: 200px;
+        height: 100px;
+        background-size: cover;
+     }
+  }
+
+ 

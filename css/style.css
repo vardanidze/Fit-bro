@@ -1,0 +1,496 @@
+@import url("https://cdn.web-fonts.ge/fonts/bpg-nino-medium-caps/css/bpg-nino-medium-caps.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/bpg-mikheil-stefane/css/bpg-mikheil-stefane.min.css");
+@import url("https://cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css");
+@import url('https://fonts.cdnfonts.com/css/muscular-strength');
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 100px
+}
+
+
+
+.container {
+    max-width: 1240px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slogan {
+    max-width: 1240px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fit {
+    font-family: 'MUSCULAR STRENGTH';
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 70px;
+    float: left;
+    max-width:  150px;
+    
+        
+}
+
+
+
+
+.nav {
+        width: 100%;
+            padding: 0 30px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+            gap: 50%;
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline ;
+    background-color: black;
+    height: 100vh;
+}
+
+.banner img {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    object-fit: contain;
+}
+
+h2 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: "BPG Mikheil Stefane", sans-serif;
+}
+
+li {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+
+}
+
+
+
+a {
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    font-family: "ArchyEDT-Bold", sans-serif;
+
+
+}
+
+
+.ss {
+    max-height: 100vh;
+    max-width: 500px;    
+    width: 100%;
+}
+
+.s-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+
+.about {
+    font-size: 25px;
+    margin-bottom: 60px;
+    font-family: "BPG Nino Medium Caps", sans-serif;
+
+    
+   
+}
+
+.for {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    font-family: "ArchyEDT-Bold", sans-serif;
+
+}
+
+.text {
+    font-size: 20px;
+    font-family: "BPG Nino Medium Caps", sans-serif;
+    font-weight: 500;
+    line-height: 27px;
+    line-break: loose;
+}
+
+.tx {
+    width: 400px;
+   
+}
+
+
+.s2 {
+    background: url("../img/2.webp");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline ;
+}
+
+.pai {
+    max-width: 900px;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    
+}
+.pain{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 100px;
+    color: white;
+    font-family: "BPG Mikheil Stefane", sans-serif;
+
+}
+
+.david {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    font-family: "BPG Mikheil Stefane", sans-serif;
+
+}
+
+.s3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "ArchyEDT-Bold", sans-serif;
+}
+
+.produ img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.produ { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+
+.pot {
+    max-width: 500px;
+    width: 100%;
+}
+
+.button {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+
+.potent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+   
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.producia {
+    display: flex;
+    max-width: 500px;
+    width: 100%; 
+    
+    
+}
+
+.potential {
+    font-size: 15px;
+    font-family: "BPG Nino Medium Caps", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+
+
+
+
+
+.potent a {
+    
+        background-color: black;
+        box-shadow: 0 5px 0 gray;
+        color: white;
+        padding: 1em 1.5em;
+        text-transform: uppercase;
+            
+}
+
+.potent a:hover {
+    background-color: black;
+    opacity: 0.90;
+  }
+  
+  
+
+ .potent a:active {
+    box-shadow: none;
+    top: 5px;
+  }
+
+
+
+
+  footer .ftnav {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .ftnav img {
+    text-align: center;
+  }
+
+  .ftul {
+    margin-top: 70px;
+  }
+
+  footer .ftnav .ftul {
+    max-width: 850px;
+    width: 100%;
+    height: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+  @media (max-width: 650px) {
+    footer .ftnav .ftul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: 250px;
+    }
+  }
+  footer .ftnav .ftul .ftli a {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  
+
+ 
+  @media (max-width: 1000px) {
+    .s-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }    
+
+    h2, .pain {
+        font-size: 30px;
+
+    }
+
+    .tx {
+        margin-bottom: 50px;
+    }
+
+
+    .produ img {
+        width: 500px;
+    }
+
+
+    
+    .potent, .cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .cont {
+        justify-content: left;
+    }
+    .button {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    
+
+    .produ {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .textdiv {
+        max-width: 500px;
+        width: 100%;
+        height: 60px;
+    }
+    
+       
+         ul {
+            display: none;
+        }
+         
+}
+
+@media (max-width: 500px) {
+    .nav {
+        justify-content: center;
+    }
+    .fit {
+        font-size: 30px;
+        height: 50px;
+
+    }
+
+    .produ img, .producia, .pot, .button {
+        width: 300px;
+     }
+     .banner img {
+        object-fit: cover;
+     }
+     .product {
+        font-size: 30px;
+     }
+     .tx {
+        width: 200px;
+       
+    }
+    .about {
+        font-size: 15px;
+
+    }
+    .for {
+        font-size: 30px;
+
+    }
+    .text {
+        font-size: 10px;
+        line-height: 15px;
+
+    }
+    .ss {
+        max-width: 350px;    
+
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .pai {
+        max-width: 400px;
+        max-height: 70px;
+    }
+
+    .pain {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .david {
+        font-size: 15px;
+        margin-left: 200px;
+
+    }
+}
+
+
+@media (max-width: 300px) {
+    .ss {
+        max-width: 250px;    
+
+    }
+
+    .pai {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+    .pain {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .david {
+        font-size: 10px;
+        margin-left: 100px;
+
+    }
+    .produ img, .producia, .pot, .button {
+        width: 250px;
+     }
+}
